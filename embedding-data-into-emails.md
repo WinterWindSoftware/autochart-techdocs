@@ -2,7 +2,7 @@
 This article will show you how to fetch data from Autochart's API in order to embed in an email template.
 It is aimed at web developers who would be implementing this feature.
 
-## Pre-requisites:
+## Pre-requisites
 
 - Autochart tracking has been implemented on your website
 - The server-side website code which populates data into the email template can be customised

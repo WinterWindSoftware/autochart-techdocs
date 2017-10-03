@@ -3,8 +3,6 @@ This article will show you how to fetch data from Autochart's API in order to em
 It is aimed at web developers who would be implementing this feature.
 
 ## Prerequisites
-Check the following:
-
 - Autochart tracking has been implemented on your website
 - The server-side website code which populates data into the email template can be customised
 - Your web server can make network calls out to the internet over port 443 (HTTPS)

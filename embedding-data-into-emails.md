@@ -1,4 +1,4 @@
-# How can we embed Autochart data into our own enquiry email templates?
+# Embedding Autochart data into enquiry email templates
 This article will show you how to fetch data from Autochart's API in order to embed in an email template.
 It is aimed at web developers who would be implementing this feature.
 

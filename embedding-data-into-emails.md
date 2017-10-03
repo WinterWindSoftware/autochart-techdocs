@@ -2,7 +2,7 @@
 This article will show you how to fetch data from Autochart's API in order to embed in an email template.
 It is aimed at web developers who would be implementing this feature.
 
-== Prerequisites
+## Prerequisites
 - Autochart tracking has been implemented on your website
 - The server-side website code which populates data into the email template can be customised
 - Your web server can make network calls out to the internet over port 443 (HTTPS)
@@ -78,7 +78,7 @@ Here is an example response:
                 Search Type: Car, Condition: Used, Make: BMW, Model: 3 Series
                 <span class="timestamp" style="font-size:small; color: #777777">(2 days ago)</span>
             </li>
-        </ul>ß
+        </ul>
     </p>
     <p>
         <a class="profile-link" href="https://portal.autochart.io/a/592d4b76b1268d0010c1206b/leads/58cd3ce65242b75baf000001">

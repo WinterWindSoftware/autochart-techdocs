@@ -3,6 +3,7 @@ This article will show you how to fetch data from Autochart's API in order to em
 It is aimed at web developers who would be implementing this feature.
 
 ## Pre-requisites:
+
 - Autochart tracking has been implemented on your website
 - The server-side website code which populates data into the email template can be customised
 - Your web server can make network calls out to the internet over port 443 (HTTPS)
@@ -11,7 +12,7 @@ It is aimed at web developers who would be implementing this feature.
 ## What does it look like?
 The screenshot below gives an example of the information which will be retrieved from Autochart to include in the email:
 
-![ProfileEmail](./autochart-embedded-profile-email.png)
+![ProfileEmail](./images/autochart-embedded-profile-email.png)
 
 ## Implementation Overview
 The sequence of steps below shows how the embedding of the Autochart data into emails is typically implemented. Technology-specific code examples are provided at the end of this article. Steps marked as __[New]__ are those which developers will need to add code for.

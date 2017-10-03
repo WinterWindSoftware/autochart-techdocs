@@ -42,54 +42,51 @@ Here is an example response:
 
 ```html
 <div class="autochart-profile">
-            <p class="history">
-                First visited website 5 days ago
-                and has visited 14 times in total,
-                viewing undefined pages.
-            </p>
-            <p>
-                Recently Viewed Vehicles:
-                <ul class="vehicle-views"><li>
-            <a href="http://www.exampledealersite.com/bmw/used-cars/7757866-bmw-3-series-320i-x-drive-m-sport-saloon/">
-            BMW 3 Series 2013(13) YA13KVD
-            </a> <span class="timestamp" style="font-size:small; color: #777777">(2 days ago)</span>
-        </li>
-<li>
-            <a href="http://www.exampledealersite.com/bmw/used-cars/7757866-bmw-3-series-320i-x-drive-m-sport-saloon/#location-details">
-            BMW 3 Series 2013(13) YA13KVD
-            </a> <span class="timestamp" style="font-size:small; color: #777777">(2 days ago)</span>
-        </li>
-<li>
-            <a href="http://www.exampledealersite.com/bmw/used-cars/7757866-bmw-3-series-320i-x-drive-m-sport-saloon/#tab-images-content">
-            BMW 3 Series 2013(13) YA13KVD
-            </a> <span class="timestamp" style="font-size:small; color: #777777">(4 days ago)</span>
-        </li></ul>
-            </p>
-            <p>
-                Recent searches:
-                <ul class="searches"><li>
-            Search Type: Car, Condition: Used, Make: BMW, Model: 3 Series
-            <span class="timestamp" style="font-size:small; color: #777777">(17 hours ago)</span>
-        </li>
-<li>
-            Search Type: Car, Condition: Used, Make: BMW, Model: 3 Series
-            <span class="timestamp" style="font-size:small; color: #777777">(2 days ago)</span>
-        </li>
-<li>
-            Search Type: Car, Condition: Used, Make: BMW, Model: 3 Series
-            <span class="timestamp" style="font-size:small; color: #777777">(4 days ago)</span>
-        </li>
-<li>
-            Search Type: Car, Condition: Used, Make: BMW, Model: 3 Series
-            <span class="timestamp" style="font-size:small; color: #777777">(5 days ago)</span>
-        </li></ul>
-            </p>
-            <p>
-                <a class="profile-link" href="https://portal.autochart.io/a/599d4b76b1268d0010c1206a/leads/59cd3ce65242b75baf000001">
-                    View full profile in Autochart portal &gt;&gt;
+    <p class="history">
+        First visited website 5 days ago
+        and has visited 14 times in total.
+    </p>
+    <p>
+       Recently Viewed Vehicles:
+       <ul class="vehicle-views">
+            <li>
+                <a href="http://www.exampledealersite.com/bmw/used-cars/7757866-bmw-3-series-320i-x-drive-m-sport-saloon/">
+                    BMW 3 Series 2013(13) YA13KVF
                 </a>
-            </p>
-        </div>
+                <span class="timestamp" style="font-size:small; color: #777777">(2 days ago)</span>
+            </li>
+            <li>
+                <a href="http://www.exampledealersite.com/bmw/used-cars/7757866-bmw-3-series-320i-x-drive-m-sport-saloon/#location-details">
+                BMW 3 Series 2013(13) YA13KVF
+                </a>
+                <span class="timestamp" style="font-size:small; color: #777777">(2 days ago)</span>
+            </li>
+            <li>
+                <a href="http://www.exampledealersite.com/bmw/used-cars/7757866-bmw-3-series-320i-x-drive-m-sport-saloon/#tab-images-content">
+                BMW 3 Series 2013(13) YA13KVF
+                </a> <span class="timestamp" style="font-size:small; color: #777777">(4 days ago)</span>
+            </li>
+        </ul>
+    </p>
+    <p>
+       Recent searches:
+       <ul class="searches">
+            <li>
+                Search Type: Car, Condition: Used, Make: BMW, Model: 3 Series
+                <span class="timestamp" style="font-size:small; color: #777777">(17 hours ago)</span>
+            </li>
+            <li>
+                Search Type: Car, Condition: Used, Make: BMW, Model: 3 Series
+                <span class="timestamp" style="font-size:small; color: #777777">(2 days ago)</span>
+            </li>
+        </ul>ß
+    </p>
+    <p>
+        <a class="profile-link" href="https://portal.autochart.io/a/592d4b76b1268d0010c1206b/leads/58cd3ce65242b75baf000001">
+            View full profile in Autochart portal &gt;&gt;
+        </a>
+    </p>
+</div>
 ```
 Note that the content will always be surrounded by a `<div class="autochart-profile">` element.
 

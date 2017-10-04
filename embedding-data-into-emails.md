@@ -108,8 +108,6 @@ e.g.
 ### Design for failure
 The Autochart API, like any third-party integration, should be treated as a system which may occasionaly fail, either due to transient network issues or server downtime. As a website developer, you must ensure that your website is robust and always sends the enquiry email to its recipient regardless of whether you get a valid response from the Autochart API. As the Autochart data is supplementary to the main contents of a new lead enquiry email, you could just include a message such as "Autochart data not available at this time" in cases of failure.
 
-How you implement this depends on the server-side technology you are using but most modern languages provide a try/catch mechanism which we would recommend you use.
-
 ### Implement an On/Off switch
 By providing a mechanism to turn Autochart data embedding on or off at a website level, it makes it easier to test and roll out this feature.
 For example, if you are a website provider serving several dealer clients, this also allows you to quickly enable the feature for new clients or disable the feature again if the client cancels their Autochart subscription, all without needing to add or remove lines of code.
